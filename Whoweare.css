@@ -1,0 +1,107 @@
+/*Shablon*/
+.body {
+    width: 1800px;
+    }
+
+
+html {
+  background-image: url(novifial.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+/*Header*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    border: 1px black;
+    }
+
+.header_container {
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
+    text-align: center;
+     font-size: 17px;
+     font-family: 'Arial', 'Verdana', sans-serif;
+     font-weight: 550;
+    }
+
+.header_logo {
+    z-index: 15;
+    position: relative;
+    width: 140px;
+    margin: 0px 0px 0px -30px;
+    }
+
+
+
+
+
+/*BURGER*/
+.burger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    border: none;
+    background: transparent;
+    width: 40px;
+    height: 26px;
+    margin: 0px auto;
+    left: 10px;
+    }
+
+.burger_container {
+    position: relative;
+    border: none;
+    background:transparent;
+    margin: 0px 0px 0px 450px;
+    }
+
+.burger::before,
+.burger::after {
+    content: '';
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    border-radius: 10px;
+    background: #000;
+    }
+
+.burger::before {
+    top: 0;
+    box-shadow: 0 11px 0 #000;
+    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+    }
+
+.burger::after {
+    bottom: 0;
+    transition: bottom .3s .15s, transform .3s;
+    }
+
+.burger.active::before {
+    top: 11px;
+    transform: rotate(45deg);
+    box-shadow: 0 6px 0 rgba(0,0,0,0);
+    transition: box-shadow .15s, top .3s, transform .3s .15s;
+    }
+
+.burger.active::after {
+    bottom: 11px;
+    transform: rotate(-45deg);
+    transition: bottom .3s, transform .3s .15s;
+    }

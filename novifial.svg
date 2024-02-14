@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_18_blur">
+   <feGaussianBlur in="SourceGraphic" stdDeviation="-0.1"/>
+  </filter>
+ </defs>
+ <g class="layer">
+  <title>background</title>
+  <rect fill="#fff" height="602" id="canvas_background" width="802" x="-1" y="-1"/>
+  <g display="none" id="canvasGrid">
+   <rect fill="url(#gridpattern)" height="100%" id="svg_1" stroke-width="0" width="100%" x="0" y="0"/>
+  </g>
+ </g>
+ <g class="layer">
+  <title>Layer 1</title>
+  <rect fill="#eaeded" id="svg_2" stroke="#000" transform="rotate(-180 115.7 436.96)" width="165.44" x="32.98" y="436.96"/>
+  <rect fill="#eaeded" height="74" id="svg_3" stroke="#333333" width="802" x="-1" y="33"/>
+  <rect fill="#eaeded" height="74" id="svg_5" stroke="#333333" width="802" x="-1" y="403"/>
+  <rect fill="#eaeded" height="74" id="svg_6" stroke="#4c4c4c" width="802" x="-1" y="329"/>
+  <rect fill="#eaeded" height="74" id="svg_7" stroke="#333333" width="802" x="-1" y="255"/>
+  <rect fill="#eaeded" height="74" id="svg_8" stroke="#333333" width="802" x="-1" y="181"/>
+  <rect fill="#eaeded" height="74" id="svg_9" stroke="#333333" width="802" x="-1" y="107"/>
+  <rect fill="#eaeded" height="74" id="svg_12" stroke="#333333" width="158.51" x="102.58" y="33.2"/>
+  <rect fill="#eaeded" height="74" id="svg_13" stroke="#333333" width="95.04" x="73.59" y="181"/>
+  <rect fill="#eaeded" height="74" id="svg_14" stroke="#333333" width="115.49" x="634.84" y="32.9"/>
+  <rect fill="#eaeded" height="74" id="svg_15" stroke="#333333" width="247.41" x="387.78" y="33.02"/>
+  <rect fill="#eaeded" height="74" id="svg_16" stroke="#333333" width="176.3" x="130" y="107"/>
+  <rect fill="#eaeded" height="74" id="svg_17" stroke="#333333" width="224.38" x="554.34" y="107.29"/>
+  <rect fill="#eaeded" filter="url(#svg_18_blur)" height="74" id="svg_18" stroke="#333333" width="206.25" x="168.84" y="181"/>
+  <rect fill="#eaeded" height="74" id="svg_19" stroke="#333333" width="187.34" x="520.29" y="181"/>
+  <rect fill="#eaeded" height="74" id="svg_20" stroke="#333333" width="154.51" x="118.39" y="255"/>
+  <rect fill="#eaeded" height="74" id="svg_21" stroke="#333333" width="234.04" x="235.96" y="255"/>
+  <rect fill="#eaeded" height="74" id="svg_22" stroke="#333333" width="185.36" x="469.91" y="255"/>
+  <rect fill="#eaeded" height="74" id="svg_23" stroke="#333333" width="111.97" x="201.88" y="329"/>
+  <rect fill="#eaeded" height="74" id="svg_24" stroke="#333333" width="234.75" x="494.93" y="329"/>
+  <rect fill="#eaeded" height="74" id="svg_25" stroke="#333333" width="236.29" x="105" y="403"/>
+  <rect fill="#eaeded" height="74" id="svg_26" stroke="#333333" width="215.44" x="478" y="403"/>
+  <rect fill="#eaeded" height="74" id="svg_4" stroke="#333333" width="802" x="-1" y="477"/>
+  <rect fill="#eaeded" height="74" id="svg_10" stroke="#333333" width="154.62" x="82" y="477"/>
+  <rect fill="#eaeded" height="74" id="svg_11" stroke="#333333" width="187" x="456.92" y="477"/>
+ </g>
+</svg>
